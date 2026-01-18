@@ -59,7 +59,6 @@
             margin-bottom: 0.5rem;
         }
 
-        /* Project styling */
         .project-card {
             border: 1px solid #ddd;
             padding: 1.5rem;
@@ -107,7 +106,7 @@
 
 <header>
     <h1>Balakrishna Mupparaju</h1>
-    <p>Data Scientist| Big Data | Cloud | Analytics</p>
+    <p>Data Scientist | Big Data | Cloud | Analytics</p>
 </header>
 
 <nav>
@@ -119,27 +118,30 @@
 <section id="about">
     <h2>About Me</h2>
     <p>
-       I am a Data Scientist with 9+ years of IT experience and 5+ years working with data-driven analytics and machine learning solutions. 
-        I specialize in transforming complex datasets into actionable insights using statistical analysis, predictive modeling, 
-        and data visualization. My expertise includes Python, SQL, cloud platforms (AWS, Snowflake), and big data technologies 
-        (Spark, Hadoop), with a strong focus on data quality, feature engineering, and model performance.
+        I am a Data Scientist with 9+ years of IT experience and 5+ years working with data-driven
+        analytics and machine learning solutions. I specialize in transforming complex datasets
+        into actionable insights using statistical analysis, predictive modeling, and data visualization.
+        My expertise includes Python, SQL, cloud platforms (AWS, Snowflake), and big data technologies
+        such as Spark and Hadoop, with a strong focus on data quality, feature engineering, and
+        model performance.
     </p>
 </section>
 
 <section id="projects">
     <h2>Projects</h2>
 
+    <!-- Credit Risk Prediction -->
     <div class="project-card">
         <h3>Credit Risk Prediction</h3>
         <p>
-            End-to-end machine learning project focused on predicting loan default risk
-            using financial and demographic data. The project addresses real-world class
-            imbalance and evaluates multiple models for business-ready insights.
+            End-to-end machine learning project focused on predicting loan default risk using
+            financial and demographic data. The project addresses real-world class imbalance
+            and evaluates multiple models to deliver business-ready insights.
         </p>
         <ul>
             <li>Models: Logistic Regression, Random Forest, XGBoost</li>
-            <li>Handled imbalanced data using SMOTE</li>
-            <li>Evaluated using ROC-AUC, Precision, Recall</li>
+            <li>Handled class imbalance using SMOTE</li>
+            <li>Evaluation metrics: ROC-AUC, Precision, Recall</li>
         </ul>
         <div class="project-links">
             <a href="https://github.com/mupparaju1985/credit-risk-prediction" target="_blank">
@@ -151,75 +153,26 @@
         </div>
     </div>
 
+    <!-- Medical Insurance Charges Forecasting -->
     <div class="project-card">
-        <h3>Real-Time Data Pipeline [Placeholder]</h3>
+        <h3>Forecasting Individual Medical Insurance Charges</h3>
         <p>
-            Developed a streaming data pipeline to process high-velocity data in real-time.
-            Designed to handle data ingestion, processing, and storage for immediate analytics.
-            (Title to be updated later).
+            Machine learning regression project aimed at predicting individual medical insurance
+            charges based on demographic and lifestyle factors. The project demonstrates an
+            end-to-end data science workflow from EDA to model evaluation.
         </p>
         <ul>
-            <li>Tech Stack: Kafka, Spark Streaming, AWS S3</li>
-            <li>Processed 10k+ events per second</li>
-            <li>Enabled real-time dashboards for monitoring</li>
+            <li>Techniques: Linear Regression, Ridge, Lasso, Random Forest</li>
+            <li>Performed feature encoding, scaling, and EDA</li>
+            <li>Evaluation metrics: R², MAE, RMSE</li>
         </ul>
         <div class="project-links">
-            <a href="#" target="_blank">🔗 View Code</a>
-            <a href="#" target="_blank">📄 Documentation</a>
-        </div>
-    </div>
-
-    <div class="project-card">
-        <h3>Cloud Data Warehouse Migration [Placeholder]</h3>
-        <p>
-            Architected and executed the migration of on-premise data warehouses to a cloud-native
-            solution. Focused on performance optimization and cost reduction.
-            (Title to be updated later).
-        </p>
-        <ul>
-            <li>Platforms: Oracle to Snowflake Migration</li>
-            <li>Optimized SQL queries for 40% faster performance</li>
-            <li>Implemented automated data quality checks</li>
-        </ul>
-        <div class="project-links">
-            <a href="#" target="_blank">🔗 View Code</a>
-            <a href="#" target="_blank">📄 Case Study</a>
-        </div>
-    </div>
-
-    <div class="project-card">
-        <h3>ETL Orchestration Framework [Placeholder]</h3>
-        <p>
-            Built a robust ETL orchestration framework to manage complex data workflows.
-            Ensured reliability, error handling, and automated retries for daily data loads.
-            (Title to be updated later).
-        </p>
-        <ul>
-            <li>Tools: Apache Airflow, Python, Docker</li>
-            <li>Reduced pipeline failure rate by 90%</li>
-            <li>Centralized logging and alerting system</li>
-        </ul>
-        <div class="project-links">
-            <a href="#" target="_blank">🔗 View Code</a>
-            <a href="#" target="_blank">📄 Documentation</a>
-        </div>
-    </div>
-
-    <div class="project-card">
-        <h3>Big Data Analytics Platform [Placeholder]</h3>
-        <p>
-            Designed a scalable data lake solution to store and analyze petabytes of unstructured
-            and structured data. Enabled advanced analytics and machine learning workloads.
-            (Title to be updated later).
-        </p>
-        <ul>
-            <li>Stack: Hadoop HDFS, Hive, Presto</li>
-            <li>Implemented partitioned storage for efficiency</li>
-            <li>Supported cross-functional data science teams</li>
-        </ul>
-        <div class="project-links">
-            <a href="#" target="_blank">🔗 View Code</a>
-            <a href="#" target="_blank">📄 Architecture Diagram</a>
+            <a href="https://github.com/mupparaju1985/Forecasting_Individual_Medical_Insurance_Charges" target="_blank">
+                🔗 View Code
+            </a>
+            <a href="https://github.com/mupparaju1985/Forecasting_Individual_Medical_Insurance_Charges/blob/main/whitepaper.md" target="_blank">
+                📄 Whitepaper
+            </a>
         </div>
     </div>
 
